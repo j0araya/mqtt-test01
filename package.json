@@ -1,0 +1,22 @@
+{
+  "name": "mqttest",
+  "version": "0.1.0",
+  "description": "mqttest",
+  "main": "index.js",
+  "scripts": {
+    "test": "/usr/local/sbin/mosquitto -c /usr/local/etc/mosquitto/mosquitto.conf",
+    "start": "node src/index.js",
+    "serve": "node src/index.js"
+  },
+  "keywords": [
+    "mqtt",
+    "node",
+    "iot"
+  ],
+  "author": "Jonathan Araya",
+  "license": "ISC",
+  "dependencies": {
+    "aedes": "^0.40.1",
+    "websocket-stream": "^5.5.0"
+  }
+}
